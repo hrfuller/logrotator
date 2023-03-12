@@ -1,4 +1,4 @@
-##Description
+## Description
 
 This is a CLI utility which writes a long (or infinite) steam of STDIN to
 a fixed number of files in a ring buffer fashion. Once all the files have been
@@ -6,12 +6,12 @@ filled to their max size, the oldest log file is overwritten first. This can be 
 for logging in a disk space constrained environment.
 
 
-##Installation
+## Installation
 * Install a rust toolchain with [rustup](https://rustup.rs/)
 * `cargo build --release` to build an optimized version for the current platform.
 
 
-##TODO
+## TODO
 * tests.
 * Read other streams besides STDIN
 * Accept a formattable filename template from the user.
